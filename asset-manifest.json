@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/levent-clone-web/static/css/main.4a166028.css",
+    "main.js": "/levent-clone-web/static/js/main.fdb83e55.js",
+    "static/js/787.964712ef.chunk.js": "/levent-clone-web/static/js/787.964712ef.chunk.js",
+    "index.html": "/levent-clone-web/index.html",
+    "main.4a166028.css.map": "/levent-clone-web/static/css/main.4a166028.css.map",
+    "main.fdb83e55.js.map": "/levent-clone-web/static/js/main.fdb83e55.js.map",
+    "787.964712ef.chunk.js.map": "/levent-clone-web/static/js/787.964712ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a166028.css",
+    "static/js/main.fdb83e55.js"
+  ]
+}
