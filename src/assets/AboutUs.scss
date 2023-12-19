@@ -1,0 +1,57 @@
+.about-us {
+   margin-top: 30px;
+   
+    text-align: center;
+    .title {
+       
+        line-height: 60px;
+        .title-content{
+            margin: 0 auto;
+            width: 800px;
+            line-height: 30px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 100;
+
+        }
+    }
+    img {
+        width: 100%;
+        margin: 40px 0 ;
+    }
+    .passion {
+       
+        height: 400px;
+        display: flex;
+        align-items: center;
+        p {
+            font-size: 1.2rem;
+            font-weight: 80;
+        }
+        .passion-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .passion-content {
+                padding: 0 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .passion-title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        
+        
+    }
+}
+
+.about-us * {
+    font-weight: 80;
+}
+

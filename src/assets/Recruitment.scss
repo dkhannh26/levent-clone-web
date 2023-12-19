@@ -1,0 +1,43 @@
+.recruit,h2{
+    text-align: center;
+    color: #636161;
+    font-weight: 100;
+    p{
+        text-align: justify;
+    }
+    .recruit-content {
+        margin-top: 3rem;
+        padding: 0 40px;
+
+        h2 {
+            font-weight: 100;
+            margin: 20px 0;
+        }
+    }
+    .recruit-content:nth-child(2) {
+        margin-top: 5rem;
+
+    }
+
+    .recruit-apply {
+        margin: 80px 0;
+        width: 100%;
+        p {
+            font-size: 17px;
+            text-align: center;
+            line-height: 50px;
+        }
+        
+    }
+}
+
+
+.buy {
+    img {
+        width: 100%;
+    }
+
+    .form {
+        line-height: 70px;
+    }
+}

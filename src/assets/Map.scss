@@ -1,0 +1,33 @@
+
+.map-total{
+    margin: 80px 0 ;
+    .map {
+        height: 100%;
+        width: 100%;
+        
+    }
+    .support {
+        line-height: 40px;
+        input, textarea {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #707070;
+            padding: 0;
+            margin: 6px;
+        }
+        input {
+            height: 25px;
+    
+        }
+    
+        textarea {
+            height: 130px;
+        }
+        .message {
+            margin-top: 10px;
+        }
+        
+    }
+}
+
+
