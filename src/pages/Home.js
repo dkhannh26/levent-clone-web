@@ -8,6 +8,7 @@ const Home = ({ data }) => {
     
     const [numberOfProduct, setNumberOfProduct] = useState(8)
     const [buttonValue, setButtonValue] = useState('Xem thêm')
+
     return (
         <>
             <div className='background'>

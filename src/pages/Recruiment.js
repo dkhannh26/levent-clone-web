@@ -1,12 +1,13 @@
 import React from 'react';
 import '../assets/Recruitment.scss'
-import { Col, Row} from 'antd'
+import {Col, Row} from 'antd'
+import img from '../img/recruit/Image_15_1024x1024.webp'
 const Recruiment = () => {
     return (
         <div>
             <div className="recruit">
                 <div className="recruit-image">
-                    <img src='https://levents.asia/wp-content/uploads/IMG_0879.jpeg-1-1200x988.jpg' alt='zxc'></img>
+                    <img src={img} alt='zxc'></img>
                 </div>
                 <div className="recruit-intro">
                     <div className='recruit-content'>

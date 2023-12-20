@@ -1,5 +1,7 @@
 import '../assets/Header.scss'
 import { Link, NavLink } from 'react-router-dom';
+import { BellOutlined,ShoppingOutlined, SearchOutlined, UserOutlined } from '@ant-design/icons';
+import  vn  from '../img/header/Flag_of_Vietnam.svg.png'
 export default function Header() {
     window.addEventListener( "scroll", function(){
         var menu = this.document.querySelector('.menu')
@@ -33,7 +35,7 @@ export default function Header() {
 
             <div className="home">
                 <div className="start">
-                <img className="VN" src="https://levents.asia/template/assets/images/svg/ic-vn.svg"
+                    <img className="VN" src={vn}
                         alt=""/>
                 </div>
             
@@ -44,11 +46,11 @@ export default function Header() {
                 </div>
                 
                 <div className="col-4 home-menu end">
-                    <img src="https://levents.asia/template/assets/images/notification.png" alt="bell"/>
+                    <BellOutlined />
                     <input type="text" placeholder="Search"/> 
-                    <img src="https://levents.asia/template/assets/images/svg/ic-ser.svg" alt="search"/>
-                    <a href=""><img src="https://levents.asia/template/assets/images/svg/ic-cart.svg" alt="cart"/></a>
-                    <a href=""><img  src="https://levents.asia/template/assets/images/svg/ic-user.svg" alt="user"/></a><br/>
+                    <ShoppingOutlined />
+                    <SearchOutlined />
+                    <UserOutlined />
 
                 </div>
             </div>

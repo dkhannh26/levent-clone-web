@@ -1,6 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import '../assets/Contact.scss'
+import img1 from '../img/contact/img1.webp'
+import img2 from '../img/contact/img2.webp'
+import img3 from '../img/contact/img3.webp'
+
 const Contact = () => {
     return (
         <div className='contact'>
@@ -49,25 +53,12 @@ const Contact = () => {
 
                     <Row >
                         <div>
-                            <img src="https://levents.asia/wp-content/uploads/2023/08/version1uuid03157B79-87A7-4E1D-846E-A5F88C1E9BC9modecompatiblenoloc0-320x210.jpeg"
-                                alt="" />
-                        </div>
-                        <div className="shop-info">
-                            <h3 >139E NGUYỄN TRÃI, QUẬN 1 </h3>
-                            <p>139E Nguyễn Trãi, Quận 1, HCM</p>
-                            <p>Mở cửa: <span>Thứ 2 - Chủ nhật | 09:30 ~ 21:30</span></p>
-                            <p>Số điện thoại: <span>1900 888 888</span></p>
-                        </div>
-                    </Row>
-
-                    <Row >
-                        <div>
-                            <img src="https://levents.asia/wp-content/uploads/2021/10/258788769_1340918416370289_3461913855111644296_n-320x210.jpeg"
+                            <img src={img1}
                                 alt="" />
                         </div>
                         <div className="shop-info">
                             <h3 >THE NEW PLAY GROUND, QUẬN 1</h3>
-                            <p>The New Playground, 04 Phạm Ngũ Lão, Quận 1, HCM</p>
+                            <p>The New Playground, 04 Phạm Ngũ Lão</p>
                             <p>Mở cửa: <span>Thứ 2 - Chủ nhật | 09:30 ~ 21:30</span></p>
                             <p>Số điện thoại: <span>1900 888 888</span></p>
                         </div>
@@ -75,7 +66,7 @@ const Contact = () => {
 
                     <Row >
                         <div>
-                            <img src="https://levents.asia/wp-content/uploads/2022/07/DSC03122-1-320x210.jpg" alt="" />
+                            <img src={img2} alt="" />
                         </div>
                         <div className="shop-info">
                             <h3 >54 MẬU THÂN, CẦN THƠ</h3>
@@ -87,7 +78,7 @@ const Contact = () => {
 
                     <Row >
                         <div>
-                            <img src="https://levents.asia/wp-content/uploads/2021/10/97M02494-320x210.jpg" alt="" />
+                            <img src={img3} alt="" />
                         </div>
                         <div className="shop-info">
                             <h3 >SƯ VẠN HẠNH, QUẬN 10</h3>

@@ -1,6 +1,9 @@
 import React from 'react';
 import '../assets/AboutUs.scss'
 import { Row, Col } from 'antd'
+import img1 from '../img/aboutus/collection-summer-banner.webp'
+import img2 from '../img/aboutus/homepage-ngang-4-1920x988_1.webp'
+
 const AboutUs = () => {
     return (
         <div className='about-us'>
@@ -15,7 +18,7 @@ const AboutUs = () => {
             </div>
 
             <div>
-                <img src='https://levents.asia/wp-content/uploads/elementor/thumbs/homepage-ngang-4-1-scaled-prlzs731tmqluu3qoxoodpyzvmm53nywlrfokljhu8.jpg' 
+                <img src={img1} 
                 alt='https://levents.asia/wp-content/uploads/elementor/thumbs/Untitled-3-1-prb4bhjxpwu6l1zt2rxzmkhvra4hmkcrfkewp4nzfk.png'></img>
             </div>
             <div className='passion'>
@@ -38,7 +41,7 @@ const AboutUs = () => {
                 </Row>
             </div>
             <div>
-                <img src='https://levents.asia/wp-content/uploads/elementor/thumbs/Untitled-3-1-prb4bhjxpwu6l1zt2rxzmkhvra4hmkcrfkewp4nzfk.png' 
+                <img src={img2} 
                 alt='https://levents.asia/wp-content/uploads/elementor/thumbs/Untitled-3-1-prb4bhjxpwu6l1zt2rxzmkhvra4hmkcrfkewp4nzfk.png'></img>
             </div>
         </div>
