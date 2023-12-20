@@ -56,7 +56,7 @@ const Home = ({ data }) => {
             <div className='background'>
                 <video autoPlay muted loop>
                     <source
-                        src={require('../img/home/video2.mp4')}
+                        src={require('../img/home/HAVING FUN WITH BEST FRIENDS - Levents video Lookbook Summer Vacation 2023 .mp4')}
                         type='video/mp4'
                     >
 
