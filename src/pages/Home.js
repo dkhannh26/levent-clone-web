@@ -3,8 +3,9 @@ import '../assets/Home.scss'
 import { Button, Col, Row } from 'antd';
 import Map from '../components/Map'
 import { Link } from 'react-router-dom';
-const Home = ({ data }) => {
 
+const Home = ({ data }) => {
+    
     const [numberOfProduct, setNumberOfProduct] = useState(8)
     const [buttonValue, setButtonValue] = useState('Xem thêm')
     return (
@@ -12,7 +13,7 @@ const Home = ({ data }) => {
             <div className='background'>
                 <video autoPlay muted loop>
                     <source
-                        src="https://levents.asia/wp-content/uploads/2023/10/Ban-ngang-web-18mb.mp4"
+                        src={require('../img/home/video1.mp4')}
                         type='video/mp4'
                     >
 
@@ -54,7 +55,7 @@ const Home = ({ data }) => {
             <div className='background'>
                 <video autoPlay muted loop>
                     <source
-                        src="https://levents.asia/wp-content/uploads/2023/09/Final_ba%CC%89n-web-17mb.mp4"
+                        src={require('../img/home/video2.mp4')}
                         type='video/mp4'
                     >
 
@@ -67,13 +68,13 @@ const Home = ({ data }) => {
             <Row>
                 <Col span={12} className='model'>
                     <div>
-                        <img src="https://levents.asia/wp-content/uploads/2023/07/Male-7-Front-1000x1500.png" alt='xc' />
+                        <img src={require('../img/home/model1.webp')}alt='xc' />
                         <p>LEVENTS® BASIC BOXY HOODIE/ BROWN</p>
                     </div>
                 </Col>
                 <Col span={12} className='model'>
                     <div>
-                        <img src="https://levents.asia/wp-content/uploads/2023/07/Famale-4-Front-1000x1500.png" alt='xc' />
+                        <img src={require('../img/home/model2.webp')} alt='xc' />
                         <p>LEVENTS® BASIC BOXY HOODIE/ BROWN</p>
                     </div>
                 </Col>
@@ -81,13 +82,13 @@ const Home = ({ data }) => {
             <Row>
                 <Col span={12} className='model'>
                     <div>
-                        <img src="https://levents.asia/wp-content/uploads/2023/07/Male-5-Front-1000x1500.png" alt='xc' />
+                        <img src={require('../img/home/model3.webp')} alt='xc' />
                         <p>LEVENTS® BASIC BOXY HOODIE/ BROWN</p>
                     </div>
                 </Col>
                 <Col span={12} className='model'>
                     <div>
-                        <img src="https://levents.asia/wp-content/uploads/2023/07/Famale-7-Front-1000x1500.png" alt='xc' />
+                        <img src={require('../img/home/model4.webp')} alt='xc' />
                         <p>LEVENTS® BASIC BOXY HOODIE/ BROWN</p>
                     </div>
                 </Col>
